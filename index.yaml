@@ -3,31 +3,31 @@ entries:
   db-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-30T07:04:17.344255911Z
+    created: 2018-08-30T07:25:53.19435944Z
     description: A Helm chart for Kubernetes
     digest: a294fdae162ca5fbc91a9cd9022308b078425d98c850e32e2ab780051fc1f10b
     name: db-chart
     urls:
-    - db-chart-0.2.1.tgz
+    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/db-chart-0.2.1.tgz
     version: 0.2.1
   gateway-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-30T07:04:17.344496527Z
+    created: 2018-08-30T07:25:53.194576952Z
     description: A Helm chart for Kubernetes
     digest: b13d4f4dae2fb8c6ca3afabcb65f8d965a7943181ddbb9b6c51bf98d3874c860
     name: gateway-chart
     urls:
-    - gateway-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/gateway-chart-0.1.0.tgz
     version: 0.1.0
   ui-chart:
   - apiVersion: v1
     appVersion: "1.1"
-    created: 2018-08-30T07:04:17.344708556Z
+    created: 2018-08-30T07:25:53.194815295Z
     description: A Helm chart for Kubernetes
     digest: 6b2b9c41c9dc2a617ff7e26b25fcb31d02b6b3f893cd676de594fe2b1d5c4e88
     name: ui-chart
     urls:
-    - ui-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/ui-chart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-30T07:04:17.343920078Z
+generated: 2018-08-30T07:25:53.19401066Z
