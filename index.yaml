@@ -3,40 +3,40 @@ entries:
   db-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-31T08:54:46.569488244Z
+    created: 2018-09-05T12:03:16.20359358Z
     description: A Helm chart for Kubernetes
     digest: a294fdae162ca5fbc91a9cd9022308b078425d98c850e32e2ab780051fc1f10b
     name: db-chart
     urls:
-    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/db-chart-0.2.1.tgz
+    - db-chart-0.2.1.tgz
     version: 0.2.1
   gateway-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-31T08:54:46.569778939Z
-    description: A Helm chart for Kubernetes
-    digest: b13d4f4dae2fb8c6ca3afabcb65f8d965a7943181ddbb9b6c51bf98d3874c860
+    created: 2018-09-05T12:03:16.204011383Z
+    description: A chart for gatway with node app and couchdb
+    digest: 5463936f485ddb8ffc5ba2dbdb9fab285843cd913a0b22eadd8d3081718c9725
     name: gateway-chart
     urls:
-    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/gateway-chart-0.1.0.tgz
-    version: 0.1.0
+    - gateway-chart-0.2.0.tgz
+    version: 0.2.0
   ui-chart:
   - apiVersion: v1
     appVersion: "1.1"
-    created: 2018-08-31T08:54:46.570177325Z
+    created: 2018-09-05T12:03:16.204816524Z
     description: A Helm chart for ui couchdb ui
     digest: b759d8825e738d3b51066be3493850a2f16ac75b1750f1f14f03069f2db99292
     name: ui-chart
     urls:
-    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/ui-chart-0.1.1.tgz
+    - ui-chart-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.1"
-    created: 2018-08-31T08:54:46.56997739Z
+    created: 2018-09-05T12:03:16.204411224Z
     description: A Helm chart for Kubernetes
     digest: 6b2b9c41c9dc2a617ff7e26b25fcb31d02b6b3f893cd676de594fe2b1d5c4e88
     name: ui-chart
     urls:
-    - https://raw.githubusercontent.com/chokhareganesh/helm-chart/master/ui-chart-0.1.0.tgz
+    - ui-chart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-31T08:54:46.569077892Z
+generated: 2018-09-05T12:03:16.202994919Z
