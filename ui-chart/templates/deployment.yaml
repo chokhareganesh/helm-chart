@@ -5,7 +5,7 @@ metadata:
   labels:
     name: ui-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       name: ui-service
