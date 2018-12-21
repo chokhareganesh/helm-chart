@@ -1,0 +1,5 @@
+apiVersion: v1
+appVersion: "1.0"
+description: A chart for gatway with node app and couchdb
+name: gateway-chart
+version: 0.2.0

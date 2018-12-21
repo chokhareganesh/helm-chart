@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: gateway
+  labels:
+    name: gateway
+spec:
+  type: NodePort
+  ports:
+  - port: 8007
+    nodePort: 32765
+  selector:
+    name: gateway

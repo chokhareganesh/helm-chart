@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: ui-service
+  labels:
+    name: ui-service
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    nodePort: 32767
+  selector:
+    name: ui-service

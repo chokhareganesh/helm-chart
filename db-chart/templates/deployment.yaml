@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webdb
+  labels:
+    name: webdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: webdb
+  template:
+    metadata:
+      labels:
+        name: webdb
+    spec:
+      containers:
+      - name: ui
+        image: chokhareganesh/couchdb:gateway
+        ports:
+        - containerPort: 5984
+        resources:
+          requests:
+            memory: "100Mi"
+            cpu: "500m"
+          limits:
+            memory: "120Mi"
+            cpu: "550m"

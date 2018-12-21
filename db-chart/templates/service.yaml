@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: webdb
+  labels:
+    name: webdb
+spec:
+  type: NodePort
+  ports:
+  - port: 5984
+    nodePort: 32766
+  selector:
+    name: webdb
